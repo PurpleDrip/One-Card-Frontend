@@ -1,0 +1,102 @@
+.h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.h1 {
+  font-size: 8rem;
+  margin-top: 5rem;
+}
+
+.input,
+.textarea,
+.select {
+  background-color: rgb(0, 0, 0);
+  border: 0;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  display: block;
+  margin: 10px;
+  width: 250px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.select {
+  width: 270px;
+}
+
+.input::placeholder,
+.textarea::placeholder,
+.select::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.input[type="date"] {
+  color: rgb(255, 255, 255);
+}
+
+#button:hover {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid white;
+  color: white;
+  transition: background-color 0.4s;
+}
+
+.left {
+  height: 100%;
+  width: 50rem;
+  border: 1px solid black;
+  font-size: 60px;
+  padding-left: 3rem;
+  color: rgb(233, 224, 224);
+  margin-top: 3rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 80px;
+}
+.regForm {
+  height: 90vh;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  color: rgb(39, 146, 105);
+  background-color: rgba(31, 30, 30, 0.85);
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+
+.submit {
+  display: block;
+  text-align: center;
+  margin-left: 1.3rem;
+  background-color: white;
+  color: black;
+  width: 250px;
+  margin: 10px;
+  padding: 0.4rem;
+  border-radius: 5rem;
+}
+
+.regForm1 {
+  height: 70%;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  color: rgb(39, 146, 105);
+  background-color: rgba(31, 30, 30, 0.85);
+  border-radius: 2rem;
+  margin-top: 6rem;
+}

@@ -1,0 +1,153 @@
+.input {
+  background-color: black;
+  border: 0;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  display: block;
+  margin: 10px;
+  width: 250px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.input:hover {
+  background-color: rgb(65, 63, 63);
+  transition: all 0.5s ease-in;
+}
+
+.input[type="date"] {
+  color: rgb(121, 118, 115);
+}
+
+.input:focus {
+  border: none;
+}
+
+#button {
+  display: inline;
+  height: 50px;
+  width: 130px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 20px auto;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  background-color: aliceblue;
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
+
+#button:hover {
+  background-color: rgb(143, 140, 146);
+  border: 1px solid white;
+  transition: background-color 0.4s;
+}
+
+.a {
+  display: block;
+  color: rgb(214, 211, 223);
+  margin: 10px auto;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.a:hover {
+  color: rgb(182, 155, 119);
+  transition: all 0.2s ease-in-out;
+}
+
+.h1 {
+  color: rgb(217, 223, 228);
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#backgroundVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.satyameva {
+  position: relative;
+  z-index: 1;
+  background-image: url(/images/satyameva.png);
+  height: 600px;
+  width: 400px;
+  margin: 120px auto;
+  background-repeat: no-repeat;
+  animation: fadeOut 10s ease-out forwards;
+}
+
+.loginForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  width: 300px;
+  margin: 180px auto;
+  padding: 70px;
+  background: rgba(99, 95, 95, 0.2);
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeIn 0.5s ease-in forwards;
+  animation-delay: 8s;
+}
+
+.registerForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  width: 300px;
+  margin: 65px auto;
+  padding: 70px;
+  background: rgba(99, 95, 95, 0.2);
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,109 @@
+.button {
+  height: 3rem;
+  width: 16rem;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.2rem;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 15rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  font-size: 100px;
+  text-align: left;
+  padding-left: 3rem;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "ELGR" 1, "ELSH" 2;
+  line-height: 6rem;
+}
+
+.h1 {
+  color: rgb(245, 246, 247);
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  font-size: 28px;
+  font-family: "Baskervville SC", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.h2 {
+  color: white;
+  font-size: 120px;
+  text-align: left;
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  padding-left: 3rem;
+  margin-top: 4rem;
+}
+
+.titleBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 4rem;
+  padding-left: 25px;
+  padding-right: 30px;
+  background-color: rgb(22, 21, 22);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.buttonHolder {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: rgb(65, 63, 62);
+  color: aliceblue;
+  border: 0.2px solid white;
+  transition: all 0.4s;
+}
+
+a:hover {
+  text-decoration: overline;
+  color: rgb(127, 163, 163);
+  transition: all 0.4s;
+}
+
+.admin {
+  height: 80vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
