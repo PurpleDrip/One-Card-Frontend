@@ -1,8 +1,34 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Directory structure:
+└── purpledrip-one-card-frontend/
+    ├── README.md
+    ├── eslint.config.js
+    ├── index.html
+    ├── package.json
+    ├── postcss.config.js
+    ├── store.js
+    ├── tailwind.config.js
+    ├── userSlice.js
+    ├── vite.config.js
+    ├── public/
+    │   ├── images/
+    │   └── videos/
+    └── src/
+        ├── App.jsx
+        ├── index.css
+        ├── main.jsx
+        └── pages/
+            ├── Result.jsx
+            ├── Verify.jsx
+            ├── 1Card/
+            │   ├── 1card.module.css
+            │   └── Register1Card.jsx
+            ├── Home/
+            │   ├── AdminHome.jsx
+            │   ├── Home.jsx
+            │   └── home.module.css
+            ├── Login/
+            │   ├── Login.jsx
+            │   └── login.module.css
+            └── Register/
+                ├── Register.jsx
+                └── register.module.css
